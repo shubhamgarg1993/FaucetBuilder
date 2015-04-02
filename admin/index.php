@@ -33,8 +33,7 @@ if(isset($_POST["password"])){
   }
   else{
     $view["admin_message_html"]='<div class="alert alert-danger" role="alert">
-    <span class="sr-only">Error:</span>
-    Enter a valid email address
+     Incorrect password.
     </div>';
   }
 }

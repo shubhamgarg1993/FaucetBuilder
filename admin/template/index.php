@@ -42,7 +42,7 @@ $(document).ready(function(){
       <span class="help-block">Minimum of 6 characters</span>
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" data-match="#input_password" data-match-error="Whoops, these don't match" placeholder="confirm" required>
+      <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" data-match="#new_password" data-match-error="Whoops, these don't match" placeholder="confirm" required>
       <div class="help-block with-errors"></div>
     </div>
     <button type="submit" class="btn btn-primary">Change my password</button>
